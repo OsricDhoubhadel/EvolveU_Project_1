@@ -1,0 +1,3 @@
+curl http://localhost:3000/scene/1     
+
+curl -X POST -d  '{"item1":"knife","item2":"food"}' -H "Content-Type: application/json" http://localhost:3000/scene/1/pick
