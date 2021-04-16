@@ -1,10 +1,11 @@
 let scenes = {}
 
-function createScene(id, title, description) {
+function createScene(id, title, description,options) {
     scenes[id] = {
         id,
         title,
-        description
+        description,
+        options
     }
 }
 

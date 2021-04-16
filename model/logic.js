@@ -86,4 +86,4 @@ async function scene_5(){
 // scene_4()
 // scene_5()
 
-module.exports = {scene_1, scene_2, scene_3, scene_4, scene_5}
+module.exports = {scene_1, scene_2, scene_3, scene_4, scene_5, player_data}

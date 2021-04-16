@@ -3,7 +3,8 @@ const scenes = require('./scenes.js')
 scenes.createScene(
     '1', 
     'Home Sweet Home:',
-    `Your home is a paradise. While you're enjoying life like any regular day, a wildfire breaks out causing the entire town to go into a state of emergency. You need to abandon your house. The gas station is burnt down and you can take ONLY 2 items with you from the following list: [knife,warm_clothes,med_supplies,food]`
+    `Your home is a paradise. While you're enjoying life like any regular day, a wildfire breaks out causing the entire town to go into a state of emergency. You need to abandon your house. The gas station is burnt down and you can't use your car. Making journey on foot, you can take ONLY 2 items with you from the following list to add to your inventory: [knife,warm_clothes,med_supplies,food]`, 
+    {'endpoint':'/1/pick','available_items':["knife","warm_clothes","med_supplies","food"]}
     )
 
 scenes.createScene(
