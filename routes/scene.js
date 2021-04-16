@@ -10,7 +10,8 @@ router.get('/:sceneId', (req, res) => {
         res.render('formatSceneAsHTML.pug',{
             scene_Id: scene.id,
             scene_Title: scene.title,
-            scene_Description: scene.description
+            scene_Description: scene.description,
+            next_Scene: 'http://localhost:3000/scene/' + (Number(scene.id)+1)
         })    
     }
     catch (error) {
